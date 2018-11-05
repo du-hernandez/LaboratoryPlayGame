@@ -15,13 +15,18 @@ package laboratoryplaygame;
  *
  * @author Duverney Hernandez Mora
  */
+import UI.Window;
+import assets.ImageCollection;
+
 public class LaboratoryPlayGame {
 
+    private static ImageCollection images = new ImageCollection();
+    
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        
+        Window window = new Window("Laboratory play game", images.ImageCollection[0], false, true, true);
+        //System.out.println(Math.pow(5, 2));
     }
-    
 }
