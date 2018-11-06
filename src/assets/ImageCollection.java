@@ -19,9 +19,10 @@ public class ImageCollection {
     public BufferedImage ImageCollection[];
 
     public ImageCollection() {
-        LocationImage = new String[2];
+        LocationImage = new String[3];
         LocationImage[0] = "/assets/images/Icon.png";
-        LocationImage[1] = "/assets/images/Icon.png";
+        LocationImage[1] = "/assets/images/screen.jpg";
+        LocationImage[2] = "/assets/images/boll.jpg";
 
         ImageCollection = new BufferedImage[LocationImage.length];
         for (int i = 0; i < ImageCollection.length; i++) {
